@@ -15,7 +15,8 @@
     
     This "neuron" is a computational unit that takes as input x1,x2,x3 (and a +1 intercept term),
     
-    and outputs 
+    and outputs is as follow.
+    
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=h_%7BW%2Cb%7D(x)%3Df(W%5E%7BT%7Dx)%3Df(w_%7B1%7Dx_%7B1%7D%2Bw_%7B2%7Dx_%7B2%7D%2Bw_%7B3%7Dx_%7B3%7D%2Bb)" style="border:none;" />
 
 ###3.Characteristic
