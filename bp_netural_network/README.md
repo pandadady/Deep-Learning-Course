@@ -8,8 +8,8 @@
     
 ###2.Structure
 
-<img src="http://ufldl.stanford.edu/wiki/images/3/3d/SingleNeuron.png" height="300" width="400"/>
-    
+
+<img style="-webkit-user-select: none; cursor: zoom-in;" src="http://ufldl.stanford.edu/wiki/images/3/3d/SingleNeuron.png" width="360" height="177">
 
 ###3.Characteristic
 
