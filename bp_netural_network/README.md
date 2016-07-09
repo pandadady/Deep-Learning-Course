@@ -18,6 +18,10 @@
     and outputs is as follow. f() is called activation function.
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=h_%7BW%2Cb%7D(x)%3Df(W%5E%7BT%7Dx)%3Df(w_%7B1%7Dx_%7B1%7D%2Bw_%7B2%7Dx_%7B2%7D%2Bw_%7B3%7Dx_%7B3%7D%2Bb)" style="border:none;" />
+<img style="-webkit-user-select: none; cursor: zoom-in;" src="http://ufldl.stanford.edu/wiki/index.php/File:Sigmoid_Function.png" width="360" height="177">
+<img style="-webkit-user-select: none; cursor: zoom-in;" src="http://ufldl.stanford.edu/wiki/index.php/File:Tanh_Function.png
+" width="360" height="177">
+
 
 ###3.Characteristic
 
