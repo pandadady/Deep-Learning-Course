@@ -42,7 +42,43 @@
     
     First process is forward propagation. It is a process of prediction or classification.
     
+    The purpose is output layer activation value calculation. Formula is given as below.
+    
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=z%5E%7B(l%2B1)%7D%3DW%5E%7B(l)%7D%5Calpha%5E%7B(l)%7D%2Bb%5E%7B(l)%7D%5C%5C%0A%5Calpha%5E%7B(l%2B1)%7D%3Df(z%5E%7B(l%2B1)%7D)" style="border:none;" />
+
+    Derivation is skiped.
+    
+    Second process is back propagation. It is a process of trainning.
+    
+    The purpose is weight updation. Derivation use gradient descent method to persue the min value 
+    
+    of cross function. The calculation start from output layer and end as input layer.
+    
+    Calculate error term of output layer .
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cdelta_%7Bi%7D%5E%7B(n_%7Bl%7D)%7D%3D-(y_%7Bi%7D-%5Calpha_%7Bi%7D%5E%7B(n_%7Bl%7D)%7D)%5Ccdot%20f%5E%7B'%7D(%5Calpha_%7Bi%7D%5E%7B(n_%7Bl%7D)%7D)" style="border:none;" />
+    
+    Update weight from hidden layer to output layer .
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5CDelta%20w%3D%5Calpha_%7Bi%7D%5E%7B(l)%7D%5Cdelta_%7Bi%7D%5E%7B(l%2B1)%7D" style="border:none;" />
+    
+    Calculate error term of hidden layer .
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cdelta_%7Bi%7D%5E%7B(l)%7D%3D(%5Csum_%7Bj%3D1%7D%5E%7BS_%7Bl%2B1%7D%7D%20W_%7Bij%7D%5E%7B(l)%7D%5Cdelta_%7Bi%7D%5E%7B(l%2B1)%7D)f%5E%7B'%7D(%5Calpha_%7Bi%7D%5E%7B(l)%7D)" style="border:none;" />
+    
+    Update weight from input layer to hidden layer . The formula is as same as above.
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     
     
