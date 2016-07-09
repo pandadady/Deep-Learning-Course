@@ -26,7 +26,7 @@
     
     For example, here is a small neural network:
     
-<img style="-webkit-user-select: none" src="http://ufldl.stanford.edu/wiki/images/9/99/Network331.png" width="1070" height="755">
+<img style="-webkit-user-select: none" src="http://ufldl.stanford.edu/wiki/images/9/99/Network331.png" width="400" height="282">
 
 ###3.Characteristic
 
