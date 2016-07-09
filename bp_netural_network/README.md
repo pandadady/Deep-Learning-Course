@@ -21,7 +21,7 @@
 
     f() is called activation function. 
     
-<img style="MAX-WIDTH: 650px" title="" src="http://image95.360doc.com/DownloadImg/2016/03/1611/67845301_11.png">
+<img style="-webkit-user-select: none; cursor: zoom-in;" src="http://image95.360doc.com/DownloadImg/2016/03/1611/67845301_11.png">
     
 <img style="-webkit-user-select: none; cursor: zoom-in;" src="http://ufldl.stanford.edu/wiki/images/c/ca/Sigmoid_Function.png" width="800" height="600">
 
