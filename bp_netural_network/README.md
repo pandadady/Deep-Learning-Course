@@ -19,7 +19,7 @@
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=h_%7BW%2Cb%7D(x)%3Df(W%5E%7BT%7Dx)%3Df(w_%7B1%7Dx_%7B1%7D%2Bw_%7B2%7Dx_%7B2%7D%2Bw_%7B3%7Dx_%7B3%7D%2Bb)" style="border:none;" />
 
-<img alt="Sigmoid activation function." src="/wiki/images/thumb/c/ca/Sigmoid_Function.png/400px-Sigmoid_Function.png" width="400" height="300" style="vertical-align: top">
+<img style="-webkit-user-select: none; max-width: 3600px;" src="http://ufldl.stanford.edu/wiki/images/c/ca/Sigmoid_Function.png">
 
 
 ###3.Characteristic
