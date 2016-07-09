@@ -15,14 +15,19 @@
     
     This "neuron" is a computational unit that takes as input x1,x2,x3 (and a +1 intercept term),
     
-    and outputs is as follow. f() is called activation function.
+    and outputs is as follow. 
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=h_%7BW%2Cb%7D(x)%3Df(W%5E%7BT%7Dx)%3Df(w_%7B1%7Dx_%7B1%7D%2Bw_%7B2%7Dx_%7B2%7D%2Bw_%7B3%7Dx_%7B3%7D%2Bb)" style="border:none;" />
 
+    f() is called activation function. 
+    
+<img style="MAX-WIDTH: 650px" title="" src="http://image95.360doc.com/DownloadImg/2016/03/1611/67845301_11.png">
+    
 <img style="-webkit-user-select: none; cursor: zoom-in;" src="http://ufldl.stanford.edu/wiki/images/c/ca/Sigmoid_Function.png" width="800" height="600">
 
 <img style="-webkit-user-select: none; cursor: zoom-in;" src="http://ufldl.stanford.edu/wiki/images/a/aa/Tanh_Function.png" width="800" height="600">
 
+    
 
 ###3.Characteristic
 
