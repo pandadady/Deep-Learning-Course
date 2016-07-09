@@ -24,11 +24,26 @@
 <img style="-webkit-user-select: none; cursor: zoom-in;" src="http://image95.360doc.com/DownloadImg/2016/03/1611/67845301_11.png">
 <img style="-webkit-user-select: none; cursor: zoom-in;" src="http://image95.360doc.com/DownloadImg/2016/03/1611/67845301_12.png">
     
+    A neural network is composed by many simple "neurons," so that the output of a neuron can be the input of another.
+    
     For example, here is a small neural network:
     
 <img style="-webkit-user-select: none" src="http://ufldl.stanford.edu/wiki/images/9/99/Network331.png" width="400" height="282">
+    
+    The most left layer is input layer. The middle layers are called hidden layer. The most right layer is output layer. 
+    
+    Weight is used to connect any two neurons in the two layer.
+    
+    Alpha is activation value. 
+    
+###3.Process
 
-###3.Characteristic
+    The algorithm has 2 processes to need to finish in one time iteration.
+    
+    First process is forward propagation. It is a process of prediction or classification.
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=z%5E%7B(l%2B1)%7D%3DW%5E%7B(l)%7D%5Calpha%5E%7B(l)%7D%2Bb%5E%7B(l)%7D%5C%5C%0A%5Calpha%5E%7B(l%2B1)%7D%3Df(z%5E%7B(l%2B1)%7D)" style="border:none;" />
 
-###4.Process
+    
+    
     
