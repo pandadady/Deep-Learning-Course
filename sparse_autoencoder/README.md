@@ -9,11 +9,11 @@
 
 <img style="-webkit-user-select: none; cursor: zoom-in;" src="http://ufldl.stanford.edu/wiki/images/thumb/f/f9/Autoencoder636.png/400px-Autoencoder636.png" width="400" height="445">
 
-    The output of algorithm equals to input. The hidden layer elements number is less then the number of input layer number.
+    The output of algorithm equals to input. The hidden layer elements number is less then the number of input 
     
-    In fact, this simple autoencoder often ends up learning a low-dimensional representation very similar to PCAs.
+    layer number.In fact, this simple autoencoder often ends up learning a low-dimensional representation very 
     
-    Sparsity means the none-zero elements number is nmuch more less than  other elements number.
+    similar to PCAs.Sparsity means the none-zero elements number is nmuch more less than  other elements number.
     
     Sparse Autoencoder can use little number of weights to indicate the original vetor.
     
