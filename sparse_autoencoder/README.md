@@ -13,17 +13,27 @@
     
     layer number.In fact, this simple autoencoder often ends up learning a low-dimensional representation very 
     
-    similar to PCAs.Sparsity means the none-zero elements number is nmuch more less than  other elements number.
+    similar to PCAs. Sparsity means the none-zero elements number is nmuch more less than  other elements number.
     
     Sparse Autoencoder can use little number of weights to indicate the original vetor.
     
 ##3.Process
+
+    How to achieve sparsity？
     
-    Alpha_j is the activation value of the No.j hidden layer element. Introduce the concept of active value, here
+    The core is to introduce the concept of active value.Alpha_j is the activation value of the No.j hidden layer 
     
-    is the mean active value of all the training sample.
+    element.Here is the mean active value of all the training sample.
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Chat%7B%5Crho_%7Bj%7D%20%7D%20%3D%5Cfrac%7B1%7D%7Bm%7D%5Csum_%7Bi%3D1%7D%5Em%20%5B%5Calpha%5E%7B(2)%7D_%7Bj%7D(x%5E%7B(i)%7D)%5D" style="border:none;" />
+
+    It is easy to think that the mean active value could be small in order to achieve sparsity weights.
+    
+    Sparse parameter is used to restrict the mean active value of all the training sample.
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Chat%7B%5Crho%20_%7Bj%7D%7D%20%3D%20%5Crho" style="border:none;" />
+    
+    
     
     
     
