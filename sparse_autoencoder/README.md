@@ -36,7 +36,9 @@
     In order to achieve this restriction, KL formula is given as below.
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=KL%3D%5Cbeta%20%5B%5Csum_%7Bj%3D1%7D%5E%7Bnh%7D%20%5Crho%20log%5Cfrac%7B%5Crho%7D%7B%5Chat%7B%5Crho_%7Bj%7D%7D%7D%2B(1-%5Crho)log%7B%5Cfrac%7B1-%5Crho%7D%7B1-%5Chat%7B%5Crho_%7Bj%7D%7D%7D%5D" style="border:none;" />
-
+    Add this restriction into cost function.
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=J_%7Bsparse%7D(W%2Cb)%3DJ(W%2Cb)%2BKL" style="border:none;" />
     
     
     
