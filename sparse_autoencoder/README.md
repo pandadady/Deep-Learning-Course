@@ -36,10 +36,21 @@
     In order to achieve this restriction, KL formula is given as below.
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=KL%3D%5Cbeta%20%5B%5Csum_%7Bj%3D1%7D%5E%7Bnh%7D%20%5Crho%20log%5Cfrac%7B%5Crho%7D%7B%5Chat%7B%5Crho_%7Bj%7D%7D%7D%2B(1-%5Crho)log%7B%5Cfrac%7B1-%5Crho%7D%7B1-%5Chat%7B%5Crho_%7Bj%7D%7D%7D%5D" style="border:none;" />
+    
     Add this restriction into cost function.
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=J_%7Bsparse%7D(W%2Cb)%3DJ(W%2Cb)%2BKL" style="border:none;" />
+
+    The following step is to get the min value of cost function. Error is propagating from back to front.
+
+    But the error formula has little different to the bpNN algorithm.
+
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cdelta%20_%7Bi%7D%5E%7B(2)%7D%3D%5B(%5Csum_%7Bj%3D1%7D%5E%7Bnh%7DW_%7Bij%7D%5E%7B(2)%7D%20%5Cdelta%20_%7Bi%7D%5E%7B(3)%7D)%2B%5Cbeta%20(-%5Cfrac%7B%5Crho%7D%7B%5Chat%7B%5Crho_%7Bi%7D%7D%7D%2B%5Cfrac%7B1-%5Crho%7D%7B1-%5Chat%7B%5Crho_%7Bi%7D%7D%7D)%5Df'(%5Calpha_%7Bi%7D%5E%7B(2)%7D)" style="border:none;" />
+
+
+
     
+
     
     
     
