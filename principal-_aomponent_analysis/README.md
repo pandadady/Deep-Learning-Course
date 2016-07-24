@@ -13,5 +13,12 @@
     
     direction of maximum variance.
     
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=Var(F_%7B1%7D)%3EVar(F_%7B2%7D)%3E%E2%80%A6%E2%80%A6%3EVar(F_%7Bp%7D)" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=Var(F_%7B1%7D)%3EVar(F_%7B2%7D)%3E......%3EVar(F_%7Bp%7D)" style="border:none;" />
+    
+    F1 is the first principal component. F2 is the second principal component.
+    
+    Any two principal components are linearly independent
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=Cov(F1%2CF2)%20%3D%200" style="border:none;" />
+    
     
