@@ -21,6 +21,10 @@
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=Cov(F_%7B1%7D%2CF_%7B2%7D)%20%3D%200" style="border:none;" />
 
+    Transformation matrix is needed to follow the below formula.
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=AA%5E%7BT%7D%3DI" style="border:none;" />
+
 ##2.Derivation
     
     F is principal component matrix.
@@ -48,3 +52,7 @@
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5CSigma%20%3D%20E%5B(X-E(X))(X-E(X))%5E%7BT%7D%5D" style="border:none;" />
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=Var(F)%3DA%5CSigma%20A%5E%7BT%7D" style="border:none;" />
+
+    Because Sigma matrix is p order matrix, We can have the following formula.
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5CSigma%20%3D%20U%20%5CLambda%20U%5E%7BT%7D%5C%5C%0A%0AUU%5E%7BT%7D%3DI%5C%5C%0A%0A%5CLambda%20%3D%20Diagonal%20%5C%20%5C%20%5C%20%5C%20matrix%5B%5Clambda_%7B1%7D%2C%5Clambda_%7B2%7D%2C...%2C%5Clambda_%7Bp%7D%5D" style="border:none;" />
