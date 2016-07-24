@@ -19,6 +19,10 @@
     
     Any two principal components are linearly independent
     
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=Cov(F1%2CF2)%20%3D%200" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=Cov(F_%7B1%7D%2CF_%7B2%7D)%20%3D%200" style="border:none;" />
+
+##2.Derivation
+
+
     
     
