@@ -35,6 +35,10 @@
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=X%3D%5BX_%7B1%7D%2CX_%7B2%7D%2C...%2CX_%7Bp%7D%5D" style="border:none;" />
 
-
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=F%3DAX" style="border:none;" />
     
+    Covariance matrix of F is 
     
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=Var(F)%3DVar(AX)%3DE%5B(AX-E(AX))(AX-E(AX))%5E%7BT%7D%5D" style="border:none;" />
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%3DAE%5B(X-E(X))(X-E(X))%5E%7BT%7D%5DA%5E%7BT%7D" style="border:none;" />
