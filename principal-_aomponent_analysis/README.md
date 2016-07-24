@@ -64,3 +64,13 @@
     When U=A', Covariance matrix of F have the max value.
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=Var(F)%20%3D%20%5CLambda%20%5C%5C%0A%5Clambda_%7B1%7D%3E%5Clambda_%7B2%7D%3E...%3E%5Clambda_%7Bp%7D%5C%5C%0AVar(F_%7B1%7D)%3EVar(F_%7B2%7D)%3E...%3EVar(F_%7Bp%7D)" style="border:none;" />
+
+##3.Procedure
+
+    (1) Calc Covariance matrix of X.
+    
+    (2) Calc eigenvalue diagonal matrix and Eigenvectors.
+    
+    (3) Calc cumulative contribution value
+    
+    (4) Select eigenvectors to compose principal component matrix.
