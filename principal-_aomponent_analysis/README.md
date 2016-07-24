@@ -22,6 +22,18 @@
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=Cov(F_%7B1%7D%2CF_%7B2%7D)%20%3D%200" style="border:none;" />
 
 ##2.Derivation
+    
+    F is principal component matrix.
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=F%3D%5BF_%7B1%7D%2CF_%7B2%7D%2C...%2CF_%7Bp%7D%5D" style="border:none;" />
+
+    A is transformation matrix.
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=A%3D%5BA_%7B1%7D%2CA_%7B2%7D%2C...%2CA_%7Bp%7D%5D" style="border:none;" />
+
+    X is data matrix.
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=X%3D%5BX_%7B1%7D%2CX_%7B2%7D%2C...%2CX_%7Bp%7D%5D" style="border:none;" />
 
 
     
