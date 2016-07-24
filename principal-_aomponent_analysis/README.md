@@ -42,3 +42,9 @@
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=Var(F)%3DVar(AX)%3DE%5B(AX-E(AX))(AX-E(AX))%5E%7BT%7D%5D" style="border:none;" />
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%3DAE%5B(X-E(X))(X-E(X))%5E%7BT%7D%5DA%5E%7BT%7D" style="border:none;" />
+
+    Covariance matrix of X is 
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5CSigma%20%3D%20E%5B(X-E(X))(X-E(X))%5E%7BT%7D%5D" style="border:none;" />
+
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=Var(F)%3DA%5CSigma%20A%5E%7BT%7D" style="border:none;" />
