@@ -56,3 +56,11 @@
     Because Sigma matrix is p order matrix, We can have the following formula.
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5CSigma%20%3D%20U%20%5CLambda%20U%5E%7BT%7D%5C%5C%0A%0AUU%5E%7BT%7D%3DI%5C%5C%0A%0A%5CLambda%20%3D%20Diagonal%20%5C%20%5C%20%5C%20%5C%20matrix%5B%5Clambda_%7B1%7D%2C%5Clambda_%7B2%7D%2C...%2C%5Clambda_%7Bp%7D%5D" style="border:none;" />
+
+    Covariance matrix of F is changed to
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=Var(F)%20%3D%20AU%20%5CLambda%20U%5E%7BT%7DA%5E%7BT%7D%5C%5C%0A%0A" style="border:none;" />
+
+    When U=A', Covariance matrix of F have the max value.
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=Var(F)%20%3D%20%5CLambda%20%5C%5C%0A%5Clambda_%7B1%7D%3E%5Clambda_%7B2%7D%3E...%3E%5Clambda_%7Bp%7D%5C%5C%0AVar(F_%7B1%7D)%3EVar(F_%7B2%7D)%3E...%3EVar(F_%7Bp%7D)" style="border:none;" />
