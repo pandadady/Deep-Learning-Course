@@ -25,5 +25,6 @@
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=h_%7B%5Ctheta%7D(x%5E%7B(i)%7D)%3D%5B%20p(y%5E%7B(i)%7D%3D1%7Cx%5E%7B(i)%7D%3B%5Ctheta)%2C%20p(y%5E%7B(i)%7D%3D2%7Cx%5E%7B(i)%7D%3B%5Ctheta)%2C...%20%2Cp(y%5E%7B(i)%7D%3Dk%7Cx%5E%7B(i)%7D%3B%5Ctheta)%5D%5E%7BT%7D" style="border:none;" />
     
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%3D%5Cfrac%7B1%7D%7B%5Csum_%7Bj%3D1%7D%5Ek%20e%5E%7B%5Ctheta_%7Bj%7D%5E%7BT%7Dx%5E%7B(i)%7D%7D%7D%5B%0Ae%5E%7B%5Ctheta_%7B1%7D%5E%7BT%7Dx%5E%7B(i)%7D%7D%2C%5C%20%5C%20%5C%20%0Ae%5E%7B%5Ctheta_%7B2%7D%5E%7BT%7Dx%5E%7B(i)%7D%7D%2C%5C%20%5C%20%5C%20%0A.%5C%20%5C%20%5C%20.%20%5C%20%5C%20%5C.%5C%20%5C%20%5C%20%2C%0Ae%5E%7B%5Ctheta_%7Bk%7D%5E%7BT%7Dx%5E%7B(i)%7D%7D%0A%5D%5E%7BT%7D" style="border:none;" />
     
     
