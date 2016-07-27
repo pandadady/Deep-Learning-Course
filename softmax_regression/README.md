@@ -23,8 +23,7 @@
     
     Concretely, our hypothesis hθ(x) takes the form:
     
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=h_%7B%5Ctheta%7D(x%5E%7B(i)%7D)%3D%5B%20p(y%5E%7B(i)%7D%3D1%7Cx%5E%7B(i)%3B%5Ctheta%7D)%2C%20p(y%5E%7B(i)%7D%3D2%7Cx%5E%7B(i)%3B%5Ctheta%7D)%2C...%20%2Cp(y%5E%7B(i)%7D%3Dk%7Cx%5E%7B(i)%3B%5Ctheta%7D)%5D%5E%7BT%7D" style="border:none;" />
-    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=h_%7B%5Ctheta%7D(x%5E%7B(i)%7D)%3D%5B%20p(y%5E%7B(i)%7D%3D1%7Cx%5E%7B(i)%7D%3B%5Ctheta)%2C%20p(y%5E%7B(i)%7D%3D2%7Cx%5E%7B(i)%7D%3B%5Ctheta)%2C...%20%2Cp(y%5E%7B(i)%7D%3Dk%7Cx%5E%7B(i)%7D%3B%5Ctheta)%5D%5E%7BT%7D" style="border:none;" />
     
     
     
