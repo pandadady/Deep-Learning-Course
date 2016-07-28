@@ -10,7 +10,6 @@
     which are 1 and 0. In the softmax regression,  the labels y have k different values.
     
 ##2.Process
-    
 
     As same as logistic regression, this algorithm has hypothesis function and cost function.
     
@@ -199,7 +198,7 @@ The labels values are 0 to 9.
 </tr>
 </table>
     
-    
+    In order to see images, we need to decode pixels and save them as png files
     
     
     
