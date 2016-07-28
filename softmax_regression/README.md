@@ -216,6 +216,25 @@ The labels values are 0 to 9.
     
 ###(2) Training
 
+    If you are not a pythoner, you can skip this session.
+    
+    The iterative work is finish by scipy.optimize.minimize. It is a function given by scipy package.
+    
+    It is packaged with the commonly used optimization algorithm, which is stable and efficient.
+    
+    It needs user to provide cost function, weight theta which is needed to be calced, training data , iterative method
+    
+    like 'BFGS' and iterative time.
+    
+    Steps
+    
+    1. load training data
+    
+    2. use scipy.optimize.minimize to calc weight theta
+    
+    3. use test data to pridict labels.
+    
+    4. calc accuracy 
     
     
     
