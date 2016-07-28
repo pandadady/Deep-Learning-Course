@@ -135,11 +135,73 @@ The labels values are 0 to 9.
 </tr>
 <tr>
 <td>t10k-images-idx3-ubyte.gz</td><td>test set images</td>
-<td> Format </td>
+<td> 
+<table>
+<tr>
+<td> [offset]  </td><td>[type]  </td><td>        [value]    </td><td>       [description] </td>
+</tr>
+<tr>
+<td> 0000  </td><td>    32 bit integer  </td><td> 0x00000803(2051)  </td><td>magic number </td>
+</tr>
+<tr>
+<td> 0004    </td><td>  32 bit integer  </td><td> 60000       </td><td>      number of images </td>
+</tr>
+<tr>
+<td> 0008    </td><td>  32 bit integer </td><td>  28         </td><td>       number of rows </td>
+</tr>
+<tr>
+<td> 0012   </td><td>   32 bit integer  </td><td> 28       </td><td>         number of columns </td>
+</tr>
+<tr>
+<td> 0016    </td><td>  unsigned byte  </td><td>  ??    </td><td>            pixel </td>
+</tr>
+<tr>
+<td> 0017   </td><td>   unsigned byte   </td><td> ??       </td><td>         pixel </td>
+</tr>
+<tr>
+<td> ........  </td><td> </td><td> </td><td></td>
+</tr>
+<tr>
+<td> xxxx  </td><td>    unsigned byte  </td><td>  ??     </td><td>           pixel</td>
+</tr>
+<tr>
+<td> Pixels are organized row-wise. Pixel values are 0 to 255. 0 means background (white), 255 means foreground (black).
+ </td>
+</tr>
+<tr>
+</table>
+</td>
 </tr>
 <tr>
 <td>t10k-labels-idx1-ubyte.gz</td><td>test set labels</td>
-<td> Format </td>
+<td> 
+<table>
+<tr>
+<td>[offset] </td><td>[type]</td><td>          [value]</td><td>          [description] </td>
+</tr>
+<tr>
+<td>0000 </td><td>     32 bit integer   </td><td>0x00000801(2049) </td><td> magic number (MSB first)  </td>
+</tr>
+<tr>
+<td>0004 </td><td>     32 bit integer   </td><td>60000  </td><td>           number of items  </td>
+</tr>
+<tr>
+<td>0008  </td><td>    unsigned byte    </td><td>??   </td><td>             label  </td>
+</tr>
+<tr>
+<td>0009 </td><td>     unsigned byte    </td><td>??    </td><td>            label  </td>
+</tr>
+<tr><td>........</td><td> </td><td></td><td></td> </tr>
+<tr>
+<td>xxxx </td><td>     unsigned byte    </td><td>??   </td><td>             label </td>
+</tr>
+<tr>
+<td>
+The labels values are 0 to 9. 
+</td>
+</tr>
+</table>
+</td>
 </tr>
 </table>
     
