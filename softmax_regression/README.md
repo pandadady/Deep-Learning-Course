@@ -82,12 +82,14 @@
 <tr>
 <td>0009 </td><td>     unsigned byte    </td><td>??    </td><td>            label  </td>
 </tr>
-<tr>........ </tr>
+<tr><td>........</td> </tr>
 <tr>
 <td>xxxx </td><td>     unsigned byte    </td><td>??   </td><td>             label </td>
 </tr>
 <tr>
+<td>
 The labels values are 0 to 9. 
+</td>
 </tr>
 </table>
 </td>
