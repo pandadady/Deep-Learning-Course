@@ -92,7 +92,7 @@
 <td>........</td><td> </td><td> </td><td></td>
 </tr>
 <tr>
-<td> xxxx</td><td>unsigned byte</td><td>??</td><td>pixel</td>
+<td>xxxx</td><td>unsigned byte</td><td>??</td><td>pixel</td>
 </tr>
 <tr>
 Pixels are organized row-wise. Pixel values are 0 to 255. 0 means background (white), 255 means foreground (black).
@@ -120,14 +120,12 @@ Pixels are organized row-wise. Pixel values are 0 to 255. 0 means background (wh
 <tr>
 <td>0009</td><td>unsigned byte</td><td>??</td><td>label</td>
 </tr>
-<tr><td>........</td><td> </td><td></td><td></td> </tr>
+<tr><td>........</td><td> </td><td></td><td></td></tr>
 <tr>
 <td>xxxx</td><td>unsigned byte</td><td>??</td><td>label </td>
 </tr>
 <tr>
-<td>
 The labels values are 0 to 9. 
-</td>
 </tr>
 </table>
 </td>
@@ -137,7 +135,7 @@ The labels values are 0 to 9.
 <td> 
 <table>
 <tr>
-<td>[offset] </td><td>[type]</td><td>[value]</td><td>[description] </td>
+<td>[offset]</td><td>[type]</td><td>[value]</td><td>[description] </td>
 </tr>
 <tr>
 <td>0000</td><td>32 bit integer</td><td>0x00000803(2051)</td><td>magic number</td>
