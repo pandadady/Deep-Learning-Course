@@ -50,36 +50,46 @@
     
 ##3.Experiment
 
-    In this experiment, a photo database called mnist needs to be classified. Each photo is handwritten digits given 
+    In this experiment, a photo database called mnist needs to be classified. Each photo is handwritten digits 
     
-    by some primary school students of American like 0 to 9. Therefore, the main work is to use the Softmax regression 
+    given by some primary school students of American like 0 to 9. Therefore, the main work is to use the 
     
-    algorithm to classify photos by digits. There are 4 dataset given as below.
+    Softmax regression algorithm to classify photos by digits. There are 4 dataset given as below.
+    
 <table>
 <tr>
+<td> Dataset Name </td><td> Description </td><td> Format </td>
 </tr>
-<td> Dataset Name </td><td> Description </td><td> Size </td><td> Format </td>
-<tr>
-<td>train-images-idx3-ubyte.gz </td><td>>  training set images  </td><td>9912422 bytes  </td>
+<td>train-images-idx3-ubyte.gz</td><td>training set images</td>
 <td> Format </td>
 </tr>
 <tr>
-<td>train-labels-idx1-ubyte.gz </td><td>  training set labels </td><td> 28881 bytes  </td>
-<td> [offset] [type]          [value]          [description] 
+<td>train-labels-idx1-ubyte.gz</td><td>training set labels</td>
+<td> 
+[offset] [type]          [value]          [description] 
+
 0000     32 bit integer  0x00000801(2049) magic number (MSB first) 
+
 0004     32 bit integer  60000            number of items 
+
 0008     unsigned byte   ??               label 
+
 0009     unsigned byte   ??               label 
+
 ........ 
+
 xxxx     unsigned byte   ??               label
-The labels values are 0 to 9. </td>
+
+The labels values are 0 to 9. 
+
+</td>
 </tr>
 <tr>
-<td>t10k-images-idx3-ubyte.gz </td><td>  test set images  </td><td>1648877 bytes  </td>
+<td>t10k-images-idx3-ubyte.gz</td><td>test set images</td>
 <td> Format </td>
 </tr>
 <tr>
-<td>t10k-labels-idx1-ubyte.gz </td><td> test set labels  </td><td>4542 bytes </td>
+<td>t10k-labels-idx1-ubyte.gz</td><td>test set labels</td>
 <td> Format </td>
 </tr>
 </table>
