@@ -41,6 +41,12 @@
     The cost function is given as below.
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=J(%5Ctheta)%3D-%5Cfrac%7B1%7D%7Bm%7D%5B%7B%5Csum_%7Bi%3D1%7D%5Em%20%5Csum_%7Bj%3D1%7D%5Ek%201%7By%5E%7B(i)%7D%3D1%7Dlog%5Cfrac%7Be%5E%7B%20%5Ctheta_%7Bj%7D%5E%7BT%7Dx%5E%7B(i)%7D%20%20%20%7D%7D%7B%20%5Csum_%7Bl%3D1%7D%5Ek%20e%5E%7B%20%5Ctheta_%7Bl%7D%5E%7BT%7Dx%5E%7B(i)%7D%7D%7D%5D" style="border:none;" />
+
+    As usual , we'll use an iterative optimization algorithm such as gradient descent or L-BFGS. 
+    
+    Taking derivatives, one can show that the gradient is:
+    
+    
     
     
     
