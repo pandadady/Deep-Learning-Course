@@ -67,21 +67,30 @@
 <td>train-labels-idx1-ubyte.gz</td><td>training set labels</td>
 <td> 
 <table>
-[<td>offset] </td><td>[type]</td><td>          [value]</td><td>          [description] </td>
-
-0000     32 bit integer  0x00000801(2049) magic number (MSB first) 
-
-0004     32 bit integer  60000            number of items 
-
-0008     unsigned byte   ??               label 
-
-0009     unsigned byte   ??               label 
-
-........ 
-
-xxxx     unsigned byte   ??               label
-
+<tr>
+<td>[offset] </td><td>[type]</td><td>          [value]</td><td>          [description] </td>
+</tr>
+<tr>
+<td>0000 </td><td>     32 bit integer   </td><td>0x00000801(2049) </td><td> magic number (MSB first)  </td>
+</tr>
+<tr>
+<td>0004 </td><td>     32 bit integer   </td><td>60000  </td><td>           number of items  </td>
+</tr>
+<tr>
+<td>0008  </td><td>    unsigned byte    </td><td>??   </td><td>             label  </td>
+</tr>
+<tr>
+<td>0009 </td><td>     unsigned byte    </td><td>??    </td><td>            label  </td>
+</tr>
+<tr>
+<tr>........ </tr>
+</tr>
+<tr>
+<td>xxxx </td><td>     unsigned byte    </td><td>??   </td><td>             label </td>
+</tr>
+<tr>
 The labels values are 0 to 9. 
+</tr>
 </table>
 </td>
 </tr>
