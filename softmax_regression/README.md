@@ -222,9 +222,9 @@ The labels values are 0 to 9.
     
     It is packaged with the commonly used optimization algorithm, which is stable and efficient.
     
-    It needs user to provide cost function, weight theta which is needed to be calced, training data , iterative method
+    It needs user to provide cost function, weight theta which is needed to be calced, training data , 
     
-    like 'BFGS' and iterative time.
+    iterative method like 'BFGS' and iterative time.
     
     Steps
     
