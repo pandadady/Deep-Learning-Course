@@ -11,6 +11,7 @@
     
 ##2.Process
     
+    ###(1)hypothesis function
     As same as logistic regression, this algorithm has hypothesis function and cost function.
     
     The hypothesis function of softmax regression is considered to estimate the probability that p(y = j | x) 
@@ -28,5 +29,10 @@
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%3D%5Cfrac%7B1%7D%7B%5Csum_%7Bj%3D1%7D%5Ek%20e%5E%7B%5Ctheta_%7Bj%7D%5E%7BT%7Dx%5E%7B(i)%7D%7D%7D%5B%0Ae%5E%7B%5Ctheta_%7B1%7D%5E%7BT%7Dx%5E%7B(i)%7D%7D%2C%5C%20%5C%20%5C%20%0Ae%5E%7B%5Ctheta_%7B2%7D%5E%7BT%7Dx%5E%7B(i)%7D%7D%2C%5C%20%5C%20%5C%20%0A.%5C%20%5C%20%5C%20.%20%5C%20%5C%20%5C.%5C%20%5C%20%5C%20%2C%0Ae%5E%7B%5Ctheta_%7Bk%7D%5E%7BT%7Dx%5E%7B(i)%7D%7D%0A%5D%5E%7BT%7D" style="border:none;" />
 
     Need to clear, Xi is n+1 dimension, the given Yi is k dimension, like [0,0,.1,0]. Theta is k*n+1.
+    
+    ###(2)cost function
+    
+    
+    
     
     
