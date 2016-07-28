@@ -204,6 +204,9 @@ The labels values are 0 to 9.
 
     You can execute read_image.py to see images and lables.
     
+###(2) Training
+
+    
     
     
     
