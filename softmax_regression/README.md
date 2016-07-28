@@ -47,6 +47,16 @@
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cnabla%20_%7B%5Ctheta_%7Bj%7D%7DJ(%5Ctheta)%3D-%5Cfrac%7B1%7D%7Bm%7D%5Csum_%7Bi%3D1%7D%5Em%20%5B%7B%0Ax%5E%7B(i)%7D(1%5C%7By%5E%7B(i)%7D%3Dj%5C%7D-p(y%5E%7B(i)%7D%3Dj%7Cx%5E%7B(i)%7D%3A%5Ctheta))%20%20%20%7D%5D" style="border:none;" />
     
+    But the cost function is not convex. In order to converge to the global minimum, a weight 
+    
+    decay term is added into formula.
+
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cnabla%20_%7B%5Ctheta_%7Bj%7D%7DJ(%5Ctheta)%3D-%5Cfrac%7B1%7D%7Bm%7D%5Csum_%7Bi%3D1%7D%5Em%20%5B%7B%0Ax%5E%7B(i)%7D(1%5C%7By%5E%7B(i)%7D%3Dj%5C%7D-p(y%5E%7B(i)%7D%3Dj%7Cx%5E%7B(i)%7D%3A%5Ctheta))%20%20%20%7D%5D%2B%5Clambda%20%5Ctheta_%7Bj%7D" style="border:none;" />
+
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=J(%5Ctheta)%3D%5Cfrac%7B1%7D%7Bm%7D%5B%7B%5Csum_%7Bi%3D1%7D%5Em%20%5Csum_%7Bj%3D1%7D%5Ek%201%5C%7By%5E%7B(i)%7D%3Dj%5C%7Dlog%5Cfrac%7Be%5E%7B%5Ctheta_%7Bj%7D%5E%7BT%7Dx%5E%7B(i)%7D%7D%7D%7B%5Csum_%7Bl%3D1%7D%5Ek%20e%5E%7B%5Ctheta_%7Bl%7D%5E%7BT%7Dx%5E%7B(i)%7D%7D%7D%0A%7D%5D%2B%5Cfrac%7B%5Clambda%20%7D%7B2%7D%5Csum_%7Bi%3D1%7D%5Em%5Csum_%7Bj%3D0%7D%5En%5Ctheta%5E%7B2%7D_%7Bij%7D" style="border:none;" />
+    
+    
+    
 ##3.Experiment
 
 ###(1) MNIST Datebase
