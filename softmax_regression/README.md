@@ -49,6 +49,8 @@
     
 ##3.Experiment
 
+###(1) MNIST Datebase
+
     In this experiment, a photo database called mnist needs to be classified. Each photo is handwritten digits 
     
     given by some primary school students of American like 0 to 9. Therefore, the main work is to use the 
@@ -198,7 +200,10 @@ The labels values are 0 to 9.
 </tr>
 </table>
     
-    In order to see images, we need to decode pixels and save them as png files
+    In order to see images, we need to decode pixels and save them as png files (or other image format)
+
+    You can execute read_image.py to see images and lables.
+    
     
     
     
