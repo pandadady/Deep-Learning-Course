@@ -46,6 +46,44 @@
     
     Taking derivatives, one can show that the gradient is:
     
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cnabla%20_%7B%5Ctheta_%7Bj%7D%7DJ(%5Ctheta)%3D-%5Cfrac%7B1%7D%7Bm%7D%5Csum_%7Bi%3D1%7D%5Em%20%5B%7B%0Ax%5E%7B(i)%7D(1%5C%7By%5E%7B(i)%7D%3Dj%5C%7D-p(y%5E%7B(i)%7D%3Dj%7Cx%5E%7B(i)%7D%3A%5Ctheta))%20%20%20%7D%5D" style="border:none;" />
+    
+##3.Experiment
+
+    In this experiment, a photo database called mnist needs to be classified. Each photo is handwritten digits given 
+    
+    by some primary school students of American like 0 to 9. Therefore, the main work is to use the Softmax regression 
+    
+    algorithm to classify photos by digits. There are 4 dataset given as below.
+<table>
+<tr>
+</tr>
+<td> Dataset Name </td><td> Description </td><td> Size </td><td> Format </td>
+<tr>
+<td>train-images-idx3-ubyte.gz </td><td>>  training set images  </td><td>9912422 bytes  </td>
+<td> Format </td>
+</tr>
+<tr>
+<td>train-labels-idx1-ubyte.gz </td><td>  training set labels </td><td> 28881 bytes  </td>
+<td> [offset] [type]          [value]          [description] 
+0000     32 bit integer  0x00000801(2049) magic number (MSB first) 
+0004     32 bit integer  60000            number of items 
+0008     unsigned byte   ??               label 
+0009     unsigned byte   ??               label 
+........ 
+xxxx     unsigned byte   ??               label
+The labels values are 0 to 9. </td>
+</tr>
+<tr>
+<td>t10k-images-idx3-ubyte.gz </td><td>  test set images  </td><td>1648877 bytes  </td>
+<td> Format </td>
+</tr>
+<tr>
+<td>t10k-labels-idx1-ubyte.gz </td><td> test set labels  </td><td>4542 bytes </td>
+<td> Format </td>
+</tr>
+</table>
+    
     
     
     
