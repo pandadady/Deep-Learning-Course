@@ -56,12 +56,51 @@
     
     Softmax regression algorithm to classify photos by digits. There are 4 dataset given as below.
     
+    Attention to the formation, all the image infomation is encoded in one file , so we need to decode image 
+    
+    data from ubyte formation.
+    
 <table>
 <tr>
 <td> Dataset Name </td><td> Description </td><td> Format </td>
 </tr>
 <td>train-images-idx3-ubyte.gz</td><td>training set images</td>
-<td> Format </td>
+<td> 
+<table>
+<tr>
+<td> [offset]  </td><td>[type]  </td><td>        [value]    </td><td>       [description] </td>
+</tr>
+<tr>
+<td> 0000  </td><td>    32 bit integer  </td><td> 0x00000803(2051)  </td><td>magic number </td>
+</tr>
+<tr>
+<td> 0004    </td><td>  32 bit integer  </td><td> 60000       </td><td>      number of images </td>
+</tr>
+<tr>
+<td> 0008    </td><td>  32 bit integer </td><td>  28         </td><td>       number of rows </td>
+</tr>
+<tr>
+<td> 0012   </td><td>   32 bit integer  </td><td> 28       </td><td>         number of columns </td>
+</tr>
+<tr>
+<td> 0016    </td><td>  unsigned byte  </td><td>  ??    </td><td>            pixel </td>
+</tr>
+<tr>
+<td> 0017   </td><td>   unsigned byte   </td><td> ??       </td><td>         pixel </td>
+</tr>
+<tr>
+<td> ........  </td><td> </td><td> </td><td></td>
+</tr>
+<tr>
+<td> xxxx  </td><td>    unsigned byte  </td><td>  ??     </td><td>           pixel</td>
+</tr>
+<tr>
+<td> Pixels are organized row-wise. Pixel values are 0 to 255. 0 means background (white), 255 means foreground (black).
+ </td><td> </td><td> </td><td></td>
+</tr>
+<tr>
+</table>
+</td>
 </tr>
 <tr>
 <td>train-labels-idx1-ubyte.gz</td><td>training set labels</td>
