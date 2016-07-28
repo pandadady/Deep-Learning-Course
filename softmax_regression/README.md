@@ -82,9 +82,7 @@
 <tr>
 <td>0009 </td><td>     unsigned byte    </td><td>??    </td><td>            label  </td>
 </tr>
-<tr>
 <tr>........ </tr>
-</tr>
 <tr>
 <td>xxxx </td><td>     unsigned byte    </td><td>??   </td><td>             label </td>
 </tr>
