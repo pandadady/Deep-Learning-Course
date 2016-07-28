@@ -96,7 +96,7 @@
 </tr>
 <tr>
 <td> Pixels are organized row-wise. Pixel values are 0 to 255. 0 means background (white), 255 means foreground (black).
- </td><td> </td><td> </td><td></td>
+ </td>
 </tr>
 <tr>
 </table>
@@ -128,7 +128,7 @@
 <tr>
 <td>
 The labels values are 0 to 9. 
-</td><td> </td><td></td><td></td>
+</td>
 </tr>
 </table>
 </td>
