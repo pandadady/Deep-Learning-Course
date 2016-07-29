@@ -7,6 +7,14 @@
     
     is low efficiency and high cost of labor. Self-Taught learning is builded to solve those problem.
     
-    It is able to learning features from unlabeled training data.
+    It is able to learning features from unlabeled training data. Even though a single unlabeled example 
+    
+    is less informative than a single labeled example, the number of unlabeled data is much more than 
+    
+    that of the labeled data. When DL or ML algorithm is able to exploit this unlabeled data effectively
+    
+    then we might be able to achieve better performance than the massive hand-engineering and massive 
+    
+    hand-labeling approaches.
     
     
