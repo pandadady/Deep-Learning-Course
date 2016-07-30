@@ -17,15 +17,17 @@
     
     hand-labeling approaches.
     
-        There are 2 kinds of common Unsupervised feature learning, Semi-supervised learning and self-Taught Learning.
-    
-    Semi-supervised learning demands unlabeled data comes from exactly the same distribution as 
+        There are 2 kinds of common Unsupervised feature learning, Semi-supervised learning and self-Taught 
+        
+    Learning.Semi-supervised learning demands unlabeled data comes from exactly the same distribution as 
     
     the labeled data. Self-Taught Learning don't have this restriction. For example, you need to recognize apple 
     
-    image and pear image, semi-supervised learning use unlabeled apple image and pear image, self-Taught Learning use
-   
-    unlabeled images which have some apple image ,pear image and other image.This is the magic of self-Taught Learning.
+    image and pear image, semi-supervised learning use unlabeled apple image and pear image, self-Taught Learning 
+    
+    use unlabeled images which have some apple image ,pear image and other image.This is the magic of self-Taught 
+    
+    Learning.
     
 ##2.Process
     
