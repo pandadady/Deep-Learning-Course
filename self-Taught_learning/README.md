@@ -37,7 +37,15 @@
         
     There is 2 ways to use this algorithm, replacement representation and concatenated representation.
     
-###(1)Replacement representation
+###(1) Replacement representation
+
+    Alpha is used instead of x, recomposed with y, like (a,y)
+    
+###(2) Concatenated representation.
+
+    Alpha is composed with x, then composed with y, like ((a ,x),y)
+    
+
 
     
     
