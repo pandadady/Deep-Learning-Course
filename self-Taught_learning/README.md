@@ -31,7 +31,7 @@
     
 ##2.Process
     
-<img alt="STL SparseAE Features.png" src="/wiki/images/thumb/7/73/STL_SparseAE_Features.png/300px-STL_SparseAE_Features.png" width="300" height="497" />
+<img alt="STL SparseAE Features.png" src="http://ufldl.stanford.edu/wiki/images/7/73/STL_SparseAE_Features.png" width="300" height="497" />
 
     
     
