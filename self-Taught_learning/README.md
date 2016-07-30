@@ -30,20 +30,26 @@
     Learning.
     
 ##2.Process
-    
+
+###(1) Structure
+
 <img alt="STL SparseAE Features.png" src="http://ufldl.stanford.edu/wiki/images/7/73/STL_SparseAE_Features.png" width="300" height="497" />
-    
+
+
         This is structure of self-Taught Learning model. Actually， it is sparse autoencoder model without last layer.
         
-    There is 2 ways to use this algorithm, replacement representation and concatenated representation.
+    There is 2 ways to use this algorithm, replacement representation and concatenated representation. Replacement 
     
-###(1) Replacement representation
-
-    Alpha is used instead of x, recomposed with y, like (a,y)
+    representation，Alpha is used instead of x, recomposed with y, like (a,y). Concatenated representation, Alpha is 
     
-###(2) Concatenated representation.
+    composed with x, then composed with y, like ((a ,x),y)
+    
+    
+###(2) Steps 
 
-    Alpha is composed with x, then composed with y, like ((a ,x),y)
+    1. Train sparse autoencoder weights theta with unlabeled data.
+    
+    2. Use trained sparse autoencoder to extract features.
     
 
 
