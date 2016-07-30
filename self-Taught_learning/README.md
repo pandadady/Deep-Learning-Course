@@ -33,7 +33,11 @@
     
 <img alt="STL SparseAE Features.png" src="http://ufldl.stanford.edu/wiki/images/7/73/STL_SparseAE_Features.png" width="300" height="497" />
     
-    This is structure of self-Taught Learning model. Actually， it is sparse autoencoder model without last layer.
+        This is structure of self-Taught Learning model. Actually， it is sparse autoencoder model without last layer.
+        
+    There is 2 ways to use this algorithm, replacement representation and concatenated representation.
+    
+###(1)Replacement representation
 
     
     
