@@ -31,8 +31,7 @@
     
 ##2.Process
     
-    
-    <img style="-webkit-user-select: none" src="http://ufldl.stanford.edu/wiki/images/7/73/STL_SparseAE_Features.png" width="400" height="282">
+<img style="-webkit-user-select: none" src="http://ufldl.stanford.edu/wiki/images/7/73/STL_SparseAE_Features.png" width="400" height="282">
 
     
     
