@@ -21,11 +21,11 @@
     
     Semi-supervised learning demands unlabeled data comes from exactly the same distribution as 
     
-    the labeled data. Self-Taught Learning don't have this restriction. For example, you need to recognize apple image
+    the labeled data. Self-Taught Learning don't have this restriction. For example, you need to recognize apple 
     
-    and pear image, semi-supervised learning use unlabeled apple image and pear image, self-Taught Learning use unlabeled
-    
-    images which have some apple image ,pear image and other image.This is the magic of self-Taught Learning.
+    image and pear image, semi-supervised learning use unlabeled apple image and pear image, self-Taught Learning use
+   
+    unlabeled images which have some apple image ,pear image and other image.This is the magic of self-Taught Learning.
     
 ##2.Process
     
