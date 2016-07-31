@@ -82,6 +82,6 @@
     
     (2) Calc error of output.
     
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cdelta%5E%7B(n_%7Bl%7D)%7D%3D-(%5Cnabla%20_%7B%5Calpha%5E%7Bn_%7Bl%7D%7D%7DJ)f'(z%5E%7B(n_%7Bl%7D)%7D)%5C%5C%0A%5Cnabla%20_%7B%5Calpha%5E%7Bn_%7Bl%7D%7D%7DJ%20%3D%20%5Ctheta%20%5E%7BT%7D(I%3DP)" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cdelta%5E%7B(n_%7Bl%7D)%7D%3D-(%5Cnabla%20_%7B%5Calpha%5E%7Bn_%7Bl%7D%7D%7DJ)f'(z%5E%7B(n_%7Bl%7D)%7D)%5C%5C%0A%5Cnabla%20_%7B%5Calpha%5E%7Bn_%7Bl%7D%7D%7DJ%20%3D%20%5Ctheta%20%5E%7BT%7D(I-P)" style="border:none;" />
     
     
