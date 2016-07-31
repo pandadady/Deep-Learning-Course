@@ -66,4 +66,6 @@
     
 ##5.Stacked autoencoder classification    
     
+    The structure is like below.
     
+<img alt="Stacked Combined.png" src="http://ufldl.stanford.edu/wiki/images/5/5c/Stacked_Combined.png" width="500" height="434" /></a>
