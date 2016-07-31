@@ -90,3 +90,4 @@
 
     (4) Compute the desired partial derivatives
     
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cnabla%20W%5E%7B(l)%7D%20%3D%20%5Cdelta%20%5E%7B(l%2B1)%7D(%5Calpha%5E%7B(l)%7D)%5E%7BT%7D%0A%5Cnabla%20b%5E%7B(l)%7D%20%3D%20%5Cdelta%20%5E%7B(l%2B1)%7D" style="border:none;" />
