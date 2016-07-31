@@ -60,9 +60,10 @@
     
     Data probelm is solved by self-taught learning.
     
-    Gradients does not need to be transmitted from the output layer to the first layer， so diffusion of gradient problem
+    Gradients does not need to be transmitted from the output layer to the first layer， so diffusion of gradient 
     
-    is sloved.
+    problem is sloved.
+    
 ##5.Stacked autoencoder classification    
     
     
