@@ -84,4 +84,9 @@
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cdelta%5E%7B(n_%7Bl%7D)%7D%3D-(%5Cnabla%20_%7B%5Calpha%5E%7Bn_%7Bl%7D%7D%7DJ)f'(z%5E%7B(n_%7Bl%7D)%7D)%5C%5C%0A%5Cnabla%20_%7B%5Calpha%5E%7Bn_%7Bl%7D%7D%7DJ%20%3D%20%5Ctheta%20%5E%7BT%7D(I-P)" style="border:none;" />
     
+    (3) Calc error of other layers
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cdelta%5E%7B(l)%7D%3D((W%5E%7B(l)%7D)%5E%7BT%7D%5Cdelta%20%5E%7B(l%2B1)%7D)f'(z%5E%7B(l)%7D)" style="border:none;" />
+
+    (4) Compute the desired partial derivatives
     
