@@ -69,3 +69,19 @@
     The structure is like below.
     
 <img alt="Stacked Combined.png" src="http://ufldl.stanford.edu/wiki/images/5/5c/Stacked_Combined.png" width="500" height="434" /></a>
+
+    The output of first layer is the input of second layer, and go on . First layer learns primary features.
+    
+    The second layer learns secondary features. The secondary features will add into softmax classification.
+    
+##6.Fine-tuning
+
+    The process is almost backpropagation algorithm.
+    
+    (1) Feedforward process. calc the probabilities.
+    
+    (2) Calc error of output.
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cdelta%5E%7B(n_%7Bl%7D)%7D%3D-(%5Cnabla%20_%7B%5Calpha%5E%7Bn_%7Bl%7D%7D%7DJ)f'(z%5E%7B(n_%7Bl%7D)%7D)%5C%5C%0A%5Cnabla%20_%7B%5Calpha%5E%7Bn_%7Bl%7D%7D%7DJ%20%3D%20%5Ctheta%20%5E%7BT%7D(I%3DP)" style="border:none;" />
+    
+    
