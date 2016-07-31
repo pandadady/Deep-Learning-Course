@@ -52,4 +52,17 @@
     
 ##4.Greedy layer-wise training
 
-
+    the main idea is to train the layers of the network one at a time, so that we first train a network with 1 hidden 
+    
+    layer(like self-taught learning), and only after that is done, train a network with 2 hidden layers, and so on. 
+    
+    Training is usually unsupervised.Fine-tune the entire network.
+    
+    Data probelm is solved by self-taught learning.
+    
+    Gradients does not need to be transmitted from the output layer to the first layer， so diffusion of gradient problem
+    
+    is sloved.
+##5.Stacked autoencoder classification    
+    
+    
