@@ -30,5 +30,11 @@
     
     4. Loop all the hidden units.
     
+    Assumed there is 100 features needed to be learn, the size of large image is 96*96,  when using the old feature 
+    
+    extraction method , the weights number is 100*[100*100]. When using convolution features extraction method, 
+    
+    the weights number is 89*89*100
+    
     
     
