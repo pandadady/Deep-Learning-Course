@@ -7,3 +7,15 @@
     After 2 month learning, it's the time to learn the famous 'Feature extraction using convolution'.
     
 ##2.Process
+    
+    In the before articles, the sample is 8*8 or 28*28, either self-taught or sofmax algorithm work well, when the sample
+    
+    become 96*96, the calculation is a challenage to the algorithms. The algorithm in this article is designed to solve 
+    
+    large image recognition problem.
+    
+###(1) Extract convolution features
+    
+    Assumed that the sample is 96*96, sparse autoencoder needs 10000 input nodes, assumed it is going to learn 100 features, 
+    
+    so there is 100*10000 weights to learn.
