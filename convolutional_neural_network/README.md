@@ -34,7 +34,10 @@
     
     extraction method , the weights number is 100*[100*100]. When using convolution features extraction method, 
     
-    the weights number is 89*89*100
+    the weights number is 89*89*100, it is less than before but not enough. The next method will finish the problem.
+    
+###(2) Pooling 
+
     
     
     
