@@ -38,6 +38,28 @@
     
 ###(2) Pooling 
 
+    89*89*100 weights need a classification with 89*89*100 dimensions input nodes, and the algorithm is easy to be 
     
+    over-fitting. 
+    
+    Pooling is a data aggregation technology.
+    
+    1.Split the convolved features matrix into several non coincidence areas.
+    
+    2.calc the max or average value of area.
+    
+    3.The calculation results compose a new matrix called pooled features matrix.
+    
+    Assume that area is 25*89*89, and according the rules given above, the pooled features matrix is 2*2
+    
+    Pooling technology will reduce input dimension into appropriate number.
+
+##3.Exercise
+
+    In this exercise you will use the features you learned on 8x8 patches sampled from images from the STL-10 dataset
+    
+    in the earlier exercise on linear decoders for classifying images from a reduced STL-10 dataset applying 
+    
+    convolution and pooling. The reduced STL-10 dataset comprises 64x64 images from 4 classes (airplane, car, cat, dog).
     
     
