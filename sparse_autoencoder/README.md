@@ -61,6 +61,14 @@
     In the gradient descent method, g() is a function which approach to derivative of J()
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Ctheta%3A%3D%5Ctheta%20-%20%5Calpha%20g(%5Ctheta)" style="border:none;" />
+
+    The checking is to calculate g() is equal to about derivative of J() when epsilon is 0.0001.
+    
+    When theta is a vector, the below formula is given to calc theta+epsilon.
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Ctheta%5E%7B(i%2B)%7D%20%3D%20%5Ctheta%20%2B%20%5Cepsilon%20%5Ctimes%20%5Cvec%7Be_%7Bi%7D%7D" style="border:none;" />
+
+
     
     
 
