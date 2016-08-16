@@ -48,7 +48,11 @@
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cdelta%20_%7Bi%7D%5E%7B(2)%7D%3D%5B(%5Csum_%7Bj%3D1%7D%5E%7Bnh%7DW_%7Bij%7D%5E%7B(2)%7D%20%5Cdelta%20_%7Bi%7D%5E%7B(3)%7D)%2B%5Cbeta%20(-%5Cfrac%7B%5Crho%7D%7B%5Chat%7B%5Crho_%7Bi%7D%7D%7D%2B%5Cfrac%7B1-%5Crho%7D%7B1-%5Chat%7B%5Crho_%7Bi%7D%7D%7D)%5Df'(%5Calpha_%7Bi%7D%5E%7B(2)%7D)" style="border:none;" />
 
 
+##4.Gradient check
 
+    This algorithm is really a useful method of gradient checking, which come from definition of derivative.
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cfrac%7Bd%7D%7Bd%5Ctheta%7DJ(%5Ctheta)%20%3D%20lim_%7B%5Cepsilon%20-%3E0%7D%0A%5Cfrac%7BJ(%5Ctheta%2B%5Cepsilon)-J(%5Ctheta-%5Cepsilon)%7D%7B2%5Cepsilon%7D" style="border:none;" />
     
 
     
