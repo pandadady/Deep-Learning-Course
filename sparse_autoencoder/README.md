@@ -68,6 +68,12 @@
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Ctheta%5E%7B(i%2B)%7D%20%3D%20%5Ctheta%20%2B%20%5Cepsilon%20%5Ctimes%20%5Cvec%7Be_%7Bi%7D%7D" style="border:none;" />
 
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cvec%7Be_%7Bi%7D%7D%20%3D%20%5B0%2C0%2C...%2C1%2C...%2C0%5D%5E%7BT%7D" style="border:none;" />
+    
+    The i element of e is 1, others are 0. g() is a vetor after looping for 0 to n, n is dimension of theta.
+
+    Using it will give you self-confidence of your gradient descent method in any situation.
+
 
     
     
