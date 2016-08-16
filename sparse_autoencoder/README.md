@@ -53,6 +53,15 @@
     This algorithm is really a useful method of gradient checking, which come from definition of derivative.
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cfrac%7Bd%7D%7Bd%5Ctheta%7DJ(%5Ctheta)%20%3D%20lim_%7B%5Cepsilon%20-%3E0%7D%0A%5Cfrac%7BJ(%5Ctheta%2B%5Cepsilon)-J(%5Ctheta-%5Cepsilon)%7D%7B2%5Cepsilon%7D" style="border:none;" />
+
+    This is a iteration of gradient descent. 
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Ctheta%3A%3D%5Ctheta%20-%20%5Calpha%5Cfrac%7Bd%7D%7Bd%5Ctheta%7DJ(%5Ctheta)" style="border:none;" />
+
+    In the gradient descent method, g() is a function which approach to derivative of J()
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Ctheta%3A%3D%5Ctheta%20-%20%5Calpha%20g(%5Ctheta)" style="border:none;" />
+    
     
 
     
