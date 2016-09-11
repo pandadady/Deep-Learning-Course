@@ -56,10 +56,12 @@
 
 ##3.Exercise
 
-    In this exercise you will use the features you learned on 8x8 patches sampled from images from the STL-10 dataset
+    In this exercise you will use the features you learned on 8x8 patches sampled from images from the STL-10 
     
-    in the earlier exercise on linear decoders for classifying images from a reduced STL-10 dataset applying 
+    dataset in the earlier exercise on linear decoders for classifying images from a reduced STL-10 dataset
     
-    convolution and pooling. The reduced STL-10 dataset comprises 64x64 images from 4 classes (airplane, car, cat, dog).
+    applying convolution and pooling. The reduced STL-10 dataset comprises 64x64 images from 4 classes (airplane, car, cat, 
+    
+    dog).
     
     
